@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>13b</title>
+    <style>
+      p {
+        background-color: black;
+        color: white;
+        margin: 0px;
+      }
+      .main-div {
+        display: flex;
+      }
+
+      .div1 {
+        background-color: lightpink;
+        width: 100px;
+      }
+
+      .div2 {
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        width: 200px;
+      }
+
+      .div3 {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="div1"></div>
+      <div class="div2">
+        <div>row 1</div>
+        <div class="div3">
+          <p>row 2</p>
+          <p>row 2</p>
+        </div>
+      </div>    
+    </div>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+.channel-tooltip {
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  padding: 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.3s;
+  z-index: 50;
+}
+
+.channel-tooltip-stats {
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px;
+  text-wrap: nowrap;
+}
+
+.channel-tooltip-title {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2px;
+  text-wrap: nowrap;
+}
+
+.links,
+.links:visited,
+.links:hover, 
+.links:active {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-tooltip-image {
+  border-radius: 25px;
+  height: 50px;
+  margin-right: 10px;
+  object-fit: cover;
+  width: 50px;
+}
+
+.profiles {
+  border-radius: 20px;
+  height: 40px;
+  margin-right: 10px;
+  object-fit: cover;
+  width: 40px;
+}
+
+.profiles-container {
+  position: relative;
+}
+
+.profiles-container:hover .channel-tooltip {
+  opacity: 1;
+}
+
+.thumbnails {
+  width: 100%;
+}
+
+.video-details {
+  align-items: top;
+  display: flex;
+  margin-top: 10px;
+}
+
+.video-grid {
+  column-gap: 16px;
+  display: grid;
+  padding: 14px;
+  row-gap: 40px;
+}
+
+@media (max-width: 1100px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 1550px) and (min-width: 1101px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1551px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.video-length {
+  align-items: center;
+  background-color: black;
+  border-radius: 2px;
+  bottom: 0px;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: center;
+  opacity: 0.9;
+  padding: 4px 0px;
+  position: absolute;
+  right: 8px;
+  width: 40px;
+}
+
+.video-stats {
+  color: grey;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.video-thumbnail {
+  position: relative;
+}
+
+.video-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 14px;
+}

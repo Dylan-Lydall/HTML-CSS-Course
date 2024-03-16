@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>12f</title>
+    <style>
+      button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        margin-right: 10px;
+        padding: 10px 15px;
+      }
+      
+      input {
+        border: none;
+        border-radius: 20px;
+        padding: 7px 18px;
+        width: 88%;
+      }
+
+      p {
+        color: white;
+        font-family: Arial;
+        font-weight: bold;
+        margin-left: 20px;
+      }
+
+      .first {
+        width: 150px;
+      }
+
+      .flex {
+        align-items: center;
+        background-color: rgba(83, 25, 150, 0.745);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 60px;
+      }
+
+      .second {
+        flex: 1;
+        max-width: 500px;
+      }
+
+      .third {
+        text-align: right;
+        margin-left: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="first">
+        <p>Home</p>
+      </div>
+
+      <div class="second">
+        <input type="text" placeholder="Search">
+      </div>
+
+      <div class="third">
+        <button>Download</button>
+      </div>
+    </div>
+  </body>
+</html>

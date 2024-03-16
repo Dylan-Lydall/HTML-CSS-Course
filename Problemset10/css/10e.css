@@ -1,0 +1,51 @@
+button {
+  background-color: rgba(0, 64, 255, 0.772);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-size: 8px;
+  margin: 5px 5px;
+  padding: 4px 8px;
+}
+
+p {
+  font-family: Arial;
+  margin: 0px;
+}
+
+.div1 {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 4px;
+  vertical-align: top;
+  width: 105px;
+}
+
+.mutualpic {
+  border-radius: 9px;
+  height: 18px;
+  margin-left: 5px;
+  object-fit: cover;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.profilepic {
+  height: 105px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.p1 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.p2 {
+  color: rgb(96, 96, 96);
+  display: inline-block;
+  font-size: 8px;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>11d</title>
+    <style>
+      body {
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      button {
+        background-color: rgba(0, 72, 255, 0.727);
+        border: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 18px;
+        margin: 10px 10px;
+        padding: 10px 20px;
+      }
+
+      p {
+        font-family: Arial;
+        margin: 0px;
+      }
+
+      .div1 {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6)
+      }
+
+      .div2 {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 60px 1fr;
+      }
+
+      .m1 {
+        color: grey;
+      }
+
+      .mutual {
+        border-radius: 23px;
+        height: 45px;
+        margin-left: 10px;
+        margin-top: 5px;
+        object-fit: cover;
+        vertical-align: center;
+        width: 45px;
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+      }
+
+      .profile {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <img src="images/download.jpg" class="profile">
+      <p class="name">Oliver</p>
+      <div class="div2">
+        <img src="images/images.jpg" class="mutual">
+        <p class="m1">2 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+
+    <div class="div1">
+      <img src="images/download1.jpg" class="profile">
+      <p class="name">Mimi</p>
+      <div class="div2">
+        <img src="images/images.jpg" class="mutual">
+        <p class="m1">3 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+
+    <div class="div1">
+      <img src="images/download2.jpg" class="profile">
+      <p class="name">Rex</p>
+      <div class="div2">
+        <img src="images/images.jpg" class="mutual">
+        <p class="m1">4 mutual friends</p>
+      </div>
+      <button>Add Friend</button>
+    </div>
+  </body>
+</html>

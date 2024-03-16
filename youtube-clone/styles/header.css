@@ -1,0 +1,249 @@
+.hamburger-menu {
+  cursor: pointer;
+  height: 24px;
+  padding-left: 24px;
+}
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.left-side-header {
+  align-items: center;
+  display: flex;
+  width: 300px;
+}
+
+.middle-header {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.my-channel {
+  cursor: pointer;
+  height: 32px;
+}
+
+.notifications {
+  cursor: pointer;
+  height: 24px;
+}
+
+.notifications-container {
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.notifications-container:hover .notifications-tooltip {
+  opacity: 1;
+}
+
+.notifications-count {
+  background-color: rgb(206, 0, 0);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  font-size: 10px;
+  padding: 1px 5px;
+  position: absolute;
+  right: -6px;
+  top: -12px;
+}
+
+.notifications-tooltip {
+  background-color: rgba(92, 92, 92, 0.9);
+  border-radius: 3px;
+  bottom: -40px;
+  color: white;
+  font-size: 14px;
+  opacity: 0;
+  padding: 5px 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.right-side-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 26px;
+  margin-left: 58px;
+  min-width: 182px;
+  width: 182px;
+}
+
+.search {
+  height: 24px;
+}
+
+.search-bar {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 2px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  max-width: 358px;
+  padding: 10px 16px;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+
+.search-bar:focus {
+  outline: 1px solid #1f5cc6;
+  outline-offset: -1px;
+}
+
+.search-bar::placeholder {
+  font-size: 16px;
+  position: fixed;
+  top: 10px;
+}
+
+.search-button {
+  align-items: center;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  padding: 0px 20px;
+  left: -2px;
+  position: relative;
+  transition: background-color 0.15s;
+}
+
+.search-button:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.search-button:hover .search-tooltip {
+  opacity: 1;
+}
+
+.search-tooltip {
+  background-color: rgba(92, 92, 92, 0.9);
+  border-radius: 3px;
+  bottom: -40px;
+  color: white;
+  opacity: 0;
+  padding: 5px 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.15s;
+}
+
+.upload {
+  cursor: pointer;
+  height: 24px;
+}
+
+.upload-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.upload-container:hover .upload-tooltip {
+  opacity: 1;
+}
+
+.upload-tooltip {
+  background-color: rgba(92, 92, 92, 0.9);
+  border-radius: 3px;
+  bottom: -40px;
+  color: white;
+  font-size: 14px;
+  opacity: 0;
+  padding: 5px 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.voice-search-button {
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-left: 10px;
+  position: relative;
+  width: 40px;
+}
+
+.voice-search-button:hover .voice-search-tooltip {
+  opacity: 1;
+}
+
+.voice-search-icon {
+  height: 24px;
+}
+
+.voice-search-tooltip {
+  background-color: rgba(92, 92, 92, 0.9);
+  border-radius: 3px;
+  bottom: -40px;
+  color: white;
+  opacity: 0;
+  padding: 5px 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.youtube-apps {
+  cursor: pointer;
+  height: 24px;
+}
+
+.youtube-apps-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.youtube-apps-container:hover .youtube-apps-tooltip {
+  opacity: 1;
+}
+
+.youtube-apps-tooltip {
+  background-color: rgba(92, 92, 92, 0.9);
+  border-radius: 3px;
+  bottom: -40px;
+  color: white;
+  font-size: 14px;
+  opacity: 0;
+  padding: 5px 10px;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+}
+
+.youtube-logo {
+  cursor: pointer;
+  height: 20px;
+  padding-left: 24px;
+}
